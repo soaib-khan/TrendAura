@@ -1,4 +1,4 @@
-# AlgoFit — Ready-to-deploy Node.js fashion storefront
+# TrendAura — Ready-to-deploy Node.js fashion storefront
 
 Dark/minimal storefront with responsive UI, motion, demo fashion catalog, bag drawer, Google Forms checkout, Supabase email/password auth, and a Supabase product table.
 
