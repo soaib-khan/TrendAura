@@ -481,6 +481,6 @@ app.get(/^(?!\/api|\/admin).*/, (_req, res) => {
 
 app.listen(port, () => {
   console.log(
-    `AlgoFit running on http://localhost:${port}`
+    `TrendAura running on http://localhost:${port}`
   );
 });
