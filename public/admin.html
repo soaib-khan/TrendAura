@@ -9,7 +9,7 @@
   content="width=device-width, initial-scale=1.0"
 >
 
-<title>AlgoFit Admin</title>
+<title>TrendAura Admin</title>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
@@ -409,7 +409,7 @@ button {
   <div class="login-card">
 
     <div class="logo">
-      ALGOFIT
+      TrendAura
     </div>
 
     <p class="muted">
@@ -467,7 +467,7 @@ button {
   <header class="topbar">
 
     <div class="brand">
-      ALGOFIT / ADMIN
+      TrendAura / ADMIN
     </div>
 
     <button id="logoutBtn" class="logout">
@@ -755,7 +755,7 @@ async function loginAdmin(event) {
     await verifyAdmin();
   } catch (error) {
     console.error('Admin login request failed:', error);
-    errorBox.textContent = 'Admin login needs the AlgoFit server. Open http://localhost:3000/admin.';
+    errorBox.textContent = 'Admin login needs the TrendAura server. Open http://localhost:3000/admin.';
   }
 }
 
@@ -771,7 +771,7 @@ async function init() {
     if (!response.ok) {
       document
         .getElementById('loginError')
-        .textContent = 'Admin dashboard requires the AlgoFit server. Open http://localhost:3000/admin.';
+        .textContent = 'Admin dashboard requires the TrendAura server. Open http://localhost:3000/admin.';
       return;
     }
 
